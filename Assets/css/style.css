@@ -42,6 +42,7 @@ main {
    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
     width:960px;
+    line-height:25px;
 }
 main h1{
 color:#4aaaa5;
@@ -56,7 +57,7 @@ hr {
 }
 .ProfileImage {
     float:left;
-    margin: 30px;
+    margin: 30px 30px 10px 30px;
     
 }
 
@@ -69,4 +70,9 @@ footer {
 }
 footer h1{
     text-align:center;
+}
+.ImageLabels h2 {
+    background-color:#4aaaa5;
+    display:inline;
+    padding:20px;
 }
