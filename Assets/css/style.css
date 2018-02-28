@@ -2,30 +2,57 @@ header h1 {
     background-color:#4aaaa5;
     color:white;
     display:inline;
-    margin:0 500px 0 75px;
-}
+    margin:auto 410px auto 220px;
+    padding:30px;
+    line-height:84px;
+    
+}   
 header {
     background-color:#ffffff;
     border-color:#cccccc;
     font-family:'Georgia', Times, Times New Roman, serif;
-}
-body{
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-.content {
-    background-color:#ffffff;
-   border-color:#ffffff;
+    border-style:solid;
+    margin:0 auto;
+    width: 100%;
+    height:90px;
+    
+   
 }
 
+
+
+
+header a {
+
+    margin-right:35px;
+    text-decoration:none;
+}
+body{
+    
+    margin:0;
+    padding:0;
+    background-image: url("../images/intersection.png");
+   /*Had to put image in style.css to make it local. How do I get an image one layer back from current
+   working directory without making it absolute?*/
+}
+main {
+    background-color:#ffffff;
+   border-color:#ffffff;
+   margin-left:220px;
+   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
 main h1{
 color:#4aaaa5;
 }
+
 
 p, a {
     color:#777777;
 }
 footer {
     background-color:#666666;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 footer h1{
     text-align:center;
