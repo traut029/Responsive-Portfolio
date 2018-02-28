@@ -1,0 +1,32 @@
+header h1 {
+    background-color:#4aaaa5;
+    color:white;
+    display:inline;
+    margin:0 500px 0 75px;
+}
+header {
+    background-color:#ffffff;
+    border-color:#cccccc;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+body{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.content {
+    background-color:#ffffff;
+   border-color:#ffffff;
+}
+
+main h1{
+color:#4aaaa5;
+}
+
+p, a {
+    color:#777777;
+}
+footer {
+    background-color:#666666;
+}
+footer h1{
+    text-align:center;
+}
