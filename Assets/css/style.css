@@ -97,8 +97,9 @@ footer h1{
 }
 .portfolio-images {
     position:relative;
-    display:inline;
+    display:inline-block;
     margin:15px;
+    
 }
 input {
     width:900px;
